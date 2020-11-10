@@ -1,0 +1,280 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet', href='./css/style.css')
+  // <link rel="stylesheet" href="./css/media.css">
+  // <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+  // Bootstrap CSS
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+  // <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  script(src='https://kit.fontawesome.com/53dcc6bb38.js', crossorigin='anonymous')
+section.one
+  .container
+    .header
+      .logo
+        | Startup
+        // <img src="img/section_one/logo.svg" alt="logotipe">
+        // <img src="img/section_one/startup.jpg" alt="logotipe">
+      ul.nav.justify-content-end
+        li.nav-item
+          a.nav-link.disabled(style='color: #ffffff', ;='', href='#') Home
+        li.nav-item
+          a.nav-link.disabled(style='color:#ffffff', ;='', href='#') Services
+        li.nav-item
+          a.nav-link.disabled(style='color: #ffffff', ;='', href='#') About
+        li.nav-item
+          a.nav-link.disabled(style='color: #ffffff', ;='', href='#') Works
+        li.nav-item
+          a.nav-link.disabled(style='color: #ffffff', ;='', href='#') Blog
+        li.nav-item
+          a.nav-link.disabled(style='color:#ffffff', ;='', href='#') Disabled
+        li.nav-item(li='')
+          a.nav-link.disabled(style='color:#ffffff', ;='', href='#') Contact
+    .one_header_big
+      | WELCOME TO STARTUP
+    .one_header_little
+      | Your Favourite Creative Agency Template
+    .one_header_button
+      button.one_header_but GET STARTED
+section.two
+  .container
+    .header_two SERVICES
+    .header_two_line
+    .header_two_text We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+    .icon_block
+      .icon_block1
+        .two_icon_z
+          img.two_icon(src='img/section_two/A.svg', alt='A')
+        .two_icon_text CLEAN TYPOGRAPHY
+        .two_icon__text
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+      .icon_block2
+        img.two_icon(src='img/section_two/arrow.svg', alt='arrow')
+        .two_icon_text ROCK SOLID CODE
+        .two_icon__text
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+      .icon_block3
+        img.two_icon(src='img/section_two/three.svg', alt='three')
+        .two_icon_text EXPERT SUPPORT
+        .two_icon__text
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+section.three
+  .container
+    .header_two ABOUT US
+    .header_two_line
+    .header_two_text Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+    .three_block_text
+      .three_text
+        | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed &#x9;diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. &#x9;&#x9;Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.
+      .three_text
+        | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed &#x9;diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. &#x9;&#x9;Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.
+    .slaider1
+      .carousel(data-interval='', data-ride='false')
+        .container
+          #demo.carousel.slide(data-ride='carousel')
+            // Indicators
+            ul.carousel-indicators
+              li.active(data-target='#demo', data-slide-to='0')
+              li(data-target='#demo', data-slide-to='1')
+              li(data-target='#demo', data-slide-to='2')
+            // The slideshow
+            .carousel-inner
+              .carousel-item.active
+                img(src='imgc/all1.jpg', alt='Los Angeles')
+              .carousel-item
+                img(src='imgc/all1.jpg', alt='Chicago')
+              .carousel-item
+                img(src='imgc/all1.jpg', alt='New York')
+            // Left and right controls
+            a.carousel-control-prev(href='#demo', data-slide='prev')
+              span.carousel-control-prev-icon
+            a.carousel-control-next(href='#demo', data-slide='next')
+              span.carousel-control-next-icon
+section.four
+  .container
+    .header_two LATEST WORKS
+    .header_two_line
+    ul.menu_four
+      ol.menu__four All
+      ol.menu__four Branding
+      ol.menu__four Design
+      ol.menu__four Development
+      ol.menu__four Strategy
+    .grid
+      img(src='img/section_four/1.png', alt='1')
+      img(src='img/section_four/2.png', alt='2')
+      img(src='img/section_four/3.png', alt='3')
+      img(src='img/section_four/4.png', alt='4')
+      img(src='img/section_four/5.png', alt='5')
+      img(src='img/section_four/6.png', alt='6')
+      img(src='img/section_four/7.png', alt='7')
+      img(src='img/section_four/8.png', alt='8')
+      img(src='img/section_four/9.png', alt='9')
+section.five
+  .container
+    .five_text
+      | Do you like OUR WORK so far?
+      | Let&apos;s talk about YOUR PROJECT!
+    .one_header_button
+      button.one_header_but GET IN TOUCH
+section.six
+  .container
+    .header_two RECENT BLO&Scy; POSTS
+    .header_two_line
+    .header_two_text Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+    // <div class="six_all">
+    .six_block
+      .six_i
+        img.six_img(src='img/section_six/table.jpg', alt='table')
+      .six_block_one
+        .six__block
+          .date
+            .date_text
+              | 18
+              | Oct
+          .six_block_text
+            .six_header STARTUP IDEAS NEEDS TO BE FUNDED
+            // <div class="six_header">STARTUP IDEAS NEEDS TO BE FUNDED</div>
+            .six_header_two
+              | By 
+              span Khalil
+              |  Uddin in 
+              span Development
+        .six_text_big
+          | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed &#x9;diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam erat, sed diam
+        div
+          .six_head
+            a.six_header(href='#') READ MORE
+    .six_block1
+      img.six_img1(src='img/section_six/pen.jpg', alt='table')
+      .six_block_one
+        .six__block
+          .date
+            .date_text
+              | 18
+              | Oct
+          .six_block_text
+            .six_header1 USER INTERFACE DESIGNING ELEMENTS
+            // <div class="six_header">STARTUP IDEAS NEEDS TO BE FUNDED</div>
+            .six_header_two By Khalil Uddin in Development
+        .six_text_big
+          | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed &#x9;diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor idunt ut dolore aliquyam
+        div
+          .six_head
+            a.six_header1(href='#') READ MORE
+section.seven
+  .container
+    .seven_logo
+      img.seven_img(src='img/seven_section/one_logo.png', alt='logo')
+      img.seven_img(src='img/seven_section/two_logo.png', alt='logo')
+      img.seven_img(src='img/seven_section/three_logo.png', alt='logo')
+      img.seven_img(src='img/seven_section/four_logo.png', alt='logo')
+      img.seven_img(src='img/seven_section/five_logo.png', alt='logo')
+    #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+        li(data-target='#carouselExampleIndicators', data-slide-to='1')
+        li(data-target='#carouselExampleIndicators', data-slide-to='2')
+      .carousel-inner
+        .carousel-item.active
+          .slider_text
+            | Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum&rdquo;
+          .slider_text_little John Doe, Google Inc.
+        .carousel-item
+          .slider_text
+            | Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum&rdquo; Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum&rdquo;
+        .carousel-item
+          .slider_text
+            | Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis &#x9;&#x9;&#x9;aut rerum&rdquo;
+          .slider_text_little Alex, Google Inc.
+      a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
+    style.
+      .carousel-indicators {
+      bottom: -50px;
+      }
+      .carousel-indicators li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #CED4DA;
+      <!-- border: 1px solid #c0301c; -->
+      }
+      .carousel-indicators .active {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #c0301c;
+      }
+    //
+      <script>
+      $(document).ready(border: 2pfunction() {
+      $('.carousel').carousel({
+      interval: 200000
+      })
+      });
+      </script>
+section.eight
+  .container
+    .header_two GET IN TOUCH
+    .header_two_line
+    .header_two_text Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+    .get_in_touch_links
+      .get_in_touch_links1
+        .big
+          img.get_in_touch(src='img/section_eight/adr.svg', alt='adr')
+          .big_eight_header ADRESS
+        .get_in_touch_aet
+          | 312, 7th Fve, New York
+          | NY 101200, United Sates of America
+        .big
+          img.get_in_touch(src='img/section_eight/phone.svg', alt='adr')
+          .big_eight_header HOTLINE (24x7)
+        .get_in_touch_aet
+          | +65 0052 300, +65 88251 210
+          | +88 01723 511 340
+        .big
+          img.get_in_touch(src='img/section_eight/letter.svg', alt='adr')
+          .big_eight_header E-MAIL
+        .get_in_touch_aet
+          | shapedtheme@gmail.com
+          | khalilkode@gmail.com
+      .get_in_touch_links2
+        input.get_in_touch_inp(type='text', placeholder='|', name='des')
+        input.get_in_touch_inp(type='text', placeholder='YOUR E-MAIL', name='email')
+        input.get_in_touch_inp(type='text', placeholder='YOUR SUBJECT', name='sub')
+        input.get_in_touch_inp(type='text', placeholder='COMPANY NAME', name='com')
+        input.get_in_touch_mes(type='text', placeholder='WRITE YOUR MESSAGE', name='text')
+        .get_in_touch_but
+          button.button_links2 SEND MESSAGE
+          .get_in_touch_txt
+            span.get_in_touch_color *
+            |  We&apos;ll contact you as as Possible. We don&apos;t reply on Monday
+section.footer
+  .container
+    .footer_img
+      a(href='#')
+        .wrapper_icon
+          i.fab.fa-twitter
+      a(href='#')
+        .wrapper_icon
+          i.fab.fa-instagram
+      a(href='#')
+        .wrapper_icon
+          i.fab.fa-vk
+      a(href='#')
+        .wrapper_icon
+          i.fab.fa-telegram-plane
+    .footer_line
+    .footer_c
+      | (c) 2015 STARTUP, DESIGNED BY SHAPEDTHEME
+// jQuery первый, затем Tether, затем Bootstrap JS.
+script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl', crossorigin='anonymous')
